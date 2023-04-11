@@ -3,9 +3,20 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Outra Página</title>
+        <title>JOGOS JOGADOS</title>
+        <link rel="stylesheet" href="estilopb.css"/>
+        <style>
+            li.serie{
+                color:orange;
+            }
+            li.filme{
+                color: red;
+            }
+        </style>
+        
     </head>
     <body>
+        <header>
         <p>Três últimos jogos que eu joguei!</p>
         
         <ol>
@@ -16,13 +27,14 @@
 
         <p>Filmes e series que assisti</p>
         <ul>
-            <div>Filmes</div>
-            <ul><li>Interstelar</li></ul>
-            <ul><li>Hellboy</li></ul>
+            <p>Filmes</p>
+            <li class="filme">Interstelar</li>
+            <li class="filme">Hellboy</li>
 
-            <div>Séries</div>
-            <ul><li>The last of us</li></ul>
-            <ul><li>DOM</li></ul>
+            <p>Séries</p>
+            <li class="serie">The last of us</li>
+            <li class="serie">DOM</li>
+        </header>
         </ul>
     </body>
 </html>
